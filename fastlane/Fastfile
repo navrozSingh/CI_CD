@@ -1,0 +1,22 @@
+
+default_platform(:ios)
+platform :ios do
+
+  desc "This lane will run UI test cases"
+  lane :Run_UI_Test do
+	  run_tests(workspace: "CI_CD.xcodeproj",
+            devices: ["iPhone 11"],
+            scheme: "CI_CDUITests")
+  if options[:submit]
+	
+
+  end
+  desc "This lane will run unit test cases"
+  lane :Run_Unit_Test do
+	  run_tests(workspace: "CI_CD.xcodeproj",
+            devices: ["iPhone 11"],
+            scheme: "CI_CDTests")
+
+  end
+
+end

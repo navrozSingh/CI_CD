@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='CI_CDTests.xctest' tests='2' failures='0'>
+  <testsuite name='CI_CDUITests.CI_CDUITests' tests='1' failures='0'>
+    <testcase classname='CI_CDUITests.CI_CDUITests' name='testLoginUIElements' time='7.963'/>
+  </testsuite>
+  <testsuite name='CI_CDTests.CI_CDTests' tests='1' failures='0'>
+    <testcase classname='CI_CDTests.CI_CDTests' name='testLoginUIElements' time='0.001'/>
+  </testsuite>
+</testsuites>
